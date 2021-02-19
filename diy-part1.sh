@@ -28,8 +28,8 @@ popd
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 # Clash插件
 git clone https://github.com/frainzy1477/luci-app-clash package/luci-app-clash
-git clone https://github.com/kenzok8/small.git
-git clone https://github.com/vernesong/OpenClash/tree/master/luci-app-openclash package/luci-app-openclash
+git clone https://github.com/V2RaySSR/openwrt-packages
+git clone https://github.com/V2RaySSR/small
 #PassWall插件
 git clone https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
 # SmartDNS插件
