@@ -28,6 +28,8 @@ popd
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 # Clash插件
 git clone https://github.com/frainzy1477/luci-app-clash package/luci-app-clash
+git clone https://github.com/kenzok8/small.git
+git clone https://github.com/vernesong/OpenClash/tree/master/luci-app-openclash package/luci-app-openclash
 #PassWall插件
 git clone https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
 # SmartDNS插件
@@ -37,7 +39,7 @@ git clone -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-s
 #git clone https://github.com/esirplayground/luci-app-poweroff package/luci-app-poweroff
 #自动关机插件
 #git clone https://github.com/sirpdboy/luci-app-autopoweroff package/luci-app-autopoweroff
-git clone https://github.com/vernesong/OpenClash.git
+
 # argon主题
 pushd package/lean
 rm -rf luci-theme-argon
