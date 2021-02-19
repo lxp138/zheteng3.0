@@ -15,6 +15,8 @@
 
 # Add a feed source
 sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+sed -i '$a src-git kenzo  https://github.com/V2RaySSR/openwrt-packages' feeds.conf.default
+sed -i '$a src-git small  https://github.com/V2RaySSR/small' feeds.conf.default
 # KoolProxyR去广告插件
 git clone https://github.com/jefferymvp/luci-app-koolproxyR package/luci-app-koolproxyR
 # 微信推送插件
@@ -27,9 +29,9 @@ popd
 # adguardhome插件
 #git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 # Clash插件
-git clone https://github.com/frainzy1477/luci-app-clash package/luci-app-clash
-git clone https://github.com/V2RaySSR/openwrt-packages
-git clone https://github.com/V2RaySSR/small
+#git clone https://github.com/frainzy1477/luci-app-clash package/luci-app-clash
+#git clone https://github.com/V2RaySSR/openwrt-packages
+#git clone https://github.com/V2RaySSR/small
 #PassWall插件
 #git clone https://github.com/xiaorouji/openwrt-passwall package/openwrt-passwall
 # SmartDNS插件
