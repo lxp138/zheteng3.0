@@ -13,3 +13,4 @@ src-git passwall https://github.com/xiaorouji/openwrt-passwall
 src-git openclash https://github.com/vernesong/OpenClash
 src-git OpenAppFilter https://github.com/Lienol/openwrt-OpenAppFilter
 src-git kenzo https://github.com/kenzok8/openwrt-packages
+src-git small https://github.com/kenzok8/small
